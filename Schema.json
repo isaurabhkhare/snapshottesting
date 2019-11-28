@@ -1,0 +1,89 @@
+﻿{
+  
+    "definitions": {
+    },
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "object",
+    "widget": { "formlyConfig": { "type": "accordion" } },
+    "title": "The Root Schema",
+    "required": [
+      "accordion1",
+      "accordion2",
+      "accordion3"
+    ],
+    "properties": {
+      "accordion1": {
+        "$id": "#/properties/accordion1",
+        "type": "object",
+        "title": "The Accordion1 Schema",
+        "required": [
+          "firstname",
+          "age"
+        ],
+        "properties": {
+          "firstname": {
+            "$id": "#/properties/accordion1/properties/firstname",
+            "type": "string",
+            "title": "The Firstname Schema",
+            "default": "firstname pvr1"
+          },
+          "age": {
+            "$id": "#/properties/accordion1/properties/age",
+            "type": "integer",
+            "minimum": 50,
+            "title": "The Age Schema",
+            "default": 21
+          }
+        }
+      },
+      "accordion2": {
+        "$id": "#/properties/accordion2",
+        "type": "object",
+        "title": "The Accordion2 Schema",
+        "required": [
+          "firstname",
+          "age"
+        ],
+        "properties": {
+          "firstname": {
+            "$id": "#/properties/accordion2/properties/firstname",
+            "type": "string",
+            "title": "The Firstname Schema",
+            "default": "firstName2"
+          },
+          "age": {
+            "$id": "#/properties/accordion2/properties/age",
+            "type": "integer",
+            "title": "The Age Schema",
+            "default": 31
+          }
+        }
+      },
+      "accordion3": {
+        "$id": "#/properties/accordion3",
+        "type": "object",
+        "title": "The Accordion3 Schema",
+        "required": [
+          "firstname",
+          "age"
+        ],
+        "properties": {
+          "firstname": {
+            "$id": "#/properties/accordion3/properties/firstname",
+            "type": "string",
+            "title": "The Firstname Schema",
+            "default": "firstnaem3"
+          },
+          "age": {
+            "$id": "#/properties/accordion3/properties/age",
+            "type": "integer",
+            "title": "The Age Schema",
+            "default": 10
+          }
+        }
+      }
+    },
+    "additionalProperties": false
+  
+}

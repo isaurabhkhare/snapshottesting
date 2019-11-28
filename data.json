@@ -1,0 +1,14 @@
+﻿{
+  "accordion1": {
+    "firstname": "JSON ACCORD PALANIVELRAJAN",
+    "age": 29
+  },
+  "accordion2": {
+    "firstname": "JSON ACCORD LAKSHMANAN",
+    "age": 39
+  },
+  "accordion3": {
+    "firstname": 123,
+    "age": 49
+  }
+}

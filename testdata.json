@@ -1,0 +1,14 @@
+﻿{
+  "PositiveTests": [
+    {
+      "Scenario": "TestCase001",
+      "UpdateSnapshot": "true",
+    },
+    {
+      "Scenario": "TestCase001",
+      "UpdateSnapshot": "true"
+    }
+  ]
+
+
+}
